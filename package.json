@@ -2,9 +2,11 @@
   "name": "video_app_like_youtube",
   "version": "1.0.0",
   "description": "learning project for node backend ",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "prashant",
   "license": "ISC"
